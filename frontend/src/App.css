@@ -1,0 +1,71 @@
+/* App.css */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+.App-header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.menu-form input,
+.menu-form textarea {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.menu-form button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu-form button:hover {
+  background-color: #218838;
+}
+
+.menu-list table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.menu-list th, .menu-list td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.menu-list th {
+  background-color: #f8f9fa;
+}
+
+.menu-list td img {
+  max-width: 50px;
+  height: auto;
+}
+
+button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c82333;
+}
