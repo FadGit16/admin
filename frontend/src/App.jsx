@@ -1,18 +1,13 @@
 import React from 'react';
-import './App.css';  // Make sure to style the app, if you have a custom CSS
 import AdminMenu from './admin_menu';
-const App = () => {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Admin Panel</h1>
-      </header>
 
-      <main>
-        <AdminMenu />
-      </main>
+function App() {
+  return (
+    <div className="min-h-screen bg-gray-100 p-6">
+      <h1 className="text-3xl font-bold text-center mb-6">Menu</h1>
+      <AdminMenu />
     </div>
   );
-};
+}
 
 export default App;
